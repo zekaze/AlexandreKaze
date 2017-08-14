@@ -1,0 +1,108 @@
+span {
+  display: block;
+  margin: 10px 0; }
+
+body {
+  padding-bottom: 30px; }
+
+.body {
+  padding: 50px 40px 40px; }
+
+.text {
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  transform: rotate(-5deg); }
+
+.l1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 200px;
+  line-height: 200px; }
+
+.l4 {
+  font-family: 'Anton', sans-serif;
+  font-size: 100px;
+  line-height: 100px; }
+
+.l2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 80px;
+  line-height: 80px; }
+
+.l3, .l5 {
+  display: inline-block;
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 50px;
+  line-height: 50px;
+  background-color: #212529;
+  color: #fff; }
+  .l3 .fa, .l5 .fa {
+    font-size: 20px;
+    line-height: 50px; }
+
+.l5 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 80px;
+  line-height: 80px; }
+
+.logo .l4 {
+  font-size: 30px;
+  line-height: 30px; }
+
+ul {
+  list-style: none;
+  font-size: 25px;
+  font-family: 'Anton', sans-serif;
+  display: inline-block;
+  background: #212529;
+  color: #fff;
+  margin: 0;
+  padding: 5px 15px; }
+  ul li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px; }
+
+@media (max-width: 768px) {
+  .body {
+    padding: 30px 20px 40px; }
+
+  .text {
+    -webkit-transform: rotate(-3deg); }
+
+  .l1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 150px;
+    line-height: 150px; }
+
+  .l4 {
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    line-height: 60px; }
+
+  .l2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 80px;
+    line-height: 80px; }
+
+  .l3, .l5 {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 30px;
+    line-height: 30px;
+    background-color: #212529;
+    color: #fff; }
+
+  .l5 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    line-height: 50px; }
+
+  .logo .l2 {
+    font-size: 40px;
+    line-height: 40px; } }
+
+/*# sourceMappingURL=style.css.map */
