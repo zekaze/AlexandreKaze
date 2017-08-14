@@ -4,10 +4,15 @@ span{
 }
 body{
   padding-bottom: 30px;
+  overflow-x: hidden;
+  position: relative;
 }
-.body{
-  padding: 50px 0 40px;
+.container{
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
+
 @mixin rotate($angle){
   -webkit-transform: rotate($angle);
   -moz-transform: rotate($angle);

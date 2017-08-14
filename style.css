@@ -3,10 +3,14 @@ span {
   margin: 10px 0; }
 
 body {
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  overflow-x: hidden;
+  position: relative; }
 
-.body {
-  padding: 50px 0 40px; }
+.container {
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 30px; }
 
 .text .l1, .text .l2, .text .l3, .text .l4, .text .l5 {
   -webkit-transform: rotate(-5deg);
