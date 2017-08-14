@@ -87,13 +87,9 @@ ul{
 @media (max-width: 768px) {
 
   .text{
-    padding: 0 30px;
     .l1,.l2,.l3,.l4,.l5{
       @include rotate(-3deg);
     }
-  }
-  .text{
-    -webkit-transform: rotate(-3deg);
   }
   .l1{
     font-family: 'Anton', sans-serif;

@@ -73,16 +73,11 @@ ul {
     margin: 0 15px; }
 
 @media (max-width: 768px) {
-  .text {
-    padding: 0 30px; }
-    .text .l1, .text .l2, .text .l3, .text .l4, .text .l5 {
-      -webkit-transform: rotate(-3deg);
-      -moz-transform: rotate(-3deg);
-      -o-transform: rotate(-3deg);
-      transform: rotate(-3deg); }
-
-  .text {
-    -webkit-transform: rotate(-3deg); }
+  .text .l1, .text .l2, .text .l3, .text .l4, .text .l5 {
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg); }
 
   .l1 {
     font-family: 'Anton', sans-serif;
