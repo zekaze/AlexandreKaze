@@ -54,6 +54,9 @@ body {
 .logo .l4 {
   font-size: 30px;
   line-height: 30px; }
+.logo .l2 {
+  font-size: 50px;
+  line-height: 50px; }
 
 ul {
   list-style: none;
