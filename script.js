@@ -54,3 +54,7 @@ $(function () {
     $('.l1').textillate();
     $('.l4').textillate({initialDelay: 500});
 })
+
+document.addEventListener("contextmenu", function(e){
+    e.preventDefault();
+}, false);
